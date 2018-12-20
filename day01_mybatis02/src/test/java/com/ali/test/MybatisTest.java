@@ -30,6 +30,11 @@ public class MybatisTest {
         session = factory.openSession();
         mapper = session.getMapper(UserDao.class);
     }
+
+    /**
+     * 释放资源
+     * @throws IOException
+     */
     @After
     public void end() throws IOException {
         //开启事务
