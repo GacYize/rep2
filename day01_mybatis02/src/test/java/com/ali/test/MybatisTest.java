@@ -15,7 +15,7 @@ import java.io.InputStream;
 import java.util.Date;
 import java.util.List;
 
-
+//测试账户流程
 public class MybatisTest {
     private InputStream is;
     private SqlSessionFactoryBuilder builder;
